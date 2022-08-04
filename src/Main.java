@@ -6,8 +6,6 @@ public class Main {
         doYear(2022);
         doDelivery(95);
         int clientOs = 0;
-
-
     }
 
     public static void doYear(int year) {
@@ -35,13 +33,12 @@ public class Main {
         } else if (os == 0 && Year < 2015) {
             System.out.println("Install the lite version of the iOS app by following the link");
         } else if (os == 1 && Year >= 2015) {
-            System.out.println("Install the Anlroid version of the app by following the link");
+            System.out.println("Install the Android version of the app by following the link");
         } else if (os == 1 && Year < 2015) {
-            System.out.println("Install the lite version of the Anlroid app by following the link");
+            System.out.println("Install the lite version of the Android app by following the link");
         } else {
             System.out.println("Your device is not supported");
         }
-
 
     }
 
